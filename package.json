@@ -1,0 +1,37 @@
+{
+  "name": "product-monitor.plugin.local-auth",
+  "version": "1.0.0",
+  "description": "Adds github authentication to product monitor, and enables the secure pages feature",
+  "main": "local-auth/plugin.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connected-web/product-monitor.plugin.github-auth.git"
+  },
+  "keywords": [
+    "product-monitor",
+    "nodejs",
+    "plugin",
+    "passport",
+    "github-auth"
+  ],
+  "author": "John Beech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connected-web/product-monitor.plugin.github-auth/issues"
+  },
+  "homepage": "https://github.com/connected-web/product-monitor.plugin.github-auth#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "express-session": "^1.12.1",
+    "passport": "^0.3.2",
+    "passport-github2": "^0.1.9"
+  }
+}
