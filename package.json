@@ -1,5 +1,5 @@
 {
-  "name": "product-monitor.plugin.local-auth",
+  "name": "product-monitor.plugin.github-auth",
   "version": "1.0.0",
   "description": "Adds github authentication to product monitor, and enables the secure pages feature",
   "main": "github-auth/plugin.js",
